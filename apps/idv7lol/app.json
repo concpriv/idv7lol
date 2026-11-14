@@ -2,7 +2,7 @@
   "id": "idv7lol",
   "title": "idv7lol",
   "description": "Your own layout on the whole instrument cluster: themes made with idv7lol Studio, drawn by the cluster itself",
-  "version": "0.2.11",
+  "version": "0.2.13",
   "startType": "autostart",
   "vendor": "custom",
   "loggingId": "IDV7",
@@ -177,7 +177,7 @@
       "key": "timeZone",
       "label": "Time zone",
       "type": "choice",
-      "default": "offset",
+      "default": "melbourne",
       "options": [
         ["offset", "Fixed offset (Clock: offset from UTC)"],
         ["melbourne", "Melbourne, Sydney, Canberra, Hobart"],
@@ -241,7 +241,7 @@
       "label": "Fuel tank size",
       "type": "number",
       "unit": "l",
-      "default": 0,
+      "default": 65,
       "labels": { "0": "Automatic" },
       "steps": [
         0, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,
